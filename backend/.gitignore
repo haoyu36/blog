@@ -1,0 +1,8 @@
+.env
+.DS_Store
+dump.rdb
+**__pycache__**
+data.db
+migrations
+locustfile
+

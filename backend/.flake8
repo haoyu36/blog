@@ -1,0 +1,5 @@
+[flake8]
+exclude = .git,.env,Pipfile,Pipfile.lock,*__pycache__*,*migrations*
+max-line-length = 99
+
+ignore = E402,E722

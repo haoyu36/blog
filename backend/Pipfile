@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.douban.com/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipython = "*"
+flask = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+pymysql = "*"
+flask-cors = "*"
+flask-httpauth = "*"
+pyjwt = "*"
+"cos-python-sdk-v5" = "*"
+python-dotenv = "*"
+walrus = "*"
+mistune = "*"
+gunicorn = "*"
+
+[dev-packages]
+faker = "*"
+lxml = "*"
+requests = "*"
+redis = "*"
+"flake8" = "*"
+pylint = "*"
+locustio = "*"
+
+[requires]
+python_version = "3.6"
