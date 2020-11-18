@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+python-dotenv = "*"
+flask-sqlalchemy = "*"
+ipython = "*"
+walrus = "*"
+flask-migrate = "*"
+pymysql = "*"
+pip = "*"
+flask-cors = "*"
+flask-httpauth = "*"
+pyjwt = "*"
+"cos-python-sdk-v5" = "*"
+gunicorn = "*"
+
+[dev-packages]
+requests = "*"
+faker = "*"
+"flake8" = "*"
+locustio = "*"
+pylint = "*"
+
+[requires]
+python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
